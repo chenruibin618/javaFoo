@@ -1,8 +1,8 @@
 # javaFoo
 
-![](http://pubyodaweb.yodamob.com/static/img/logo.png)
-
 > guava test
+
+- TODO
 
 > Sorting
 
