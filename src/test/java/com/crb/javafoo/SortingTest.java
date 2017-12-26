@@ -2,6 +2,7 @@ package com.crb.javafoo;
 
 import com.crb.javafoo.sorting.BubbleSort;
 import com.crb.javafoo.sorting.InsertionSort;
+import com.crb.javafoo.sorting.SelectionSort;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -46,6 +47,13 @@ public class SortingTest {
     public void InsertionSort(){
         showArr(arr);
         int[] result = InsertionSort.sorting(arr);
+        showArr(result);
+    }
+
+    @Test
+    public void SelectionSort(){
+        showArr(arr);
+        int[] result = SelectionSort.sorting(arr);
         showArr(result);
     }
 
