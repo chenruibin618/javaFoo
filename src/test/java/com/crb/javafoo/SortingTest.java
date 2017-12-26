@@ -1,6 +1,7 @@
 package com.crb.javafoo;
 
 import com.crb.javafoo.sorting.BubbleSort;
+import com.crb.javafoo.sorting.InsertionSort;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -38,6 +39,13 @@ public class SortingTest {
     public void bobbleSort(){
         showArr(arr);
         int[] result = BubbleSort.sorting(arr);
+        showArr(result);
+    }
+
+    @Test
+    public void InsertionSort(){
+        showArr(arr);
+        int[] result = InsertionSort.sorting(arr);
         showArr(result);
     }
 
