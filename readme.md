@@ -2,12 +2,12 @@
 
 > guava test
 
-- TODO
+* TODO
 
 > Sorting
 
 * [x] bubble sort;
-* [ ] insertion sort;
+* [x] insertion sort;
 * [ ] selection sort;
 * [ ] merge sort;
 * [ ] quick sort;
